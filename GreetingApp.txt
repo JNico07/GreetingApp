@@ -1,0 +1,26 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class GreetingApp
+{
+    public static void Main(string[] args)
+    {
+        Console.Write ("Enter your name: ");
+        String name = Console.ReadLine();
+        Console.Write ("Enter the total numeber your enrolled course: ");
+        int numCourse;
+        numCourse = Convert.ToInt32(Console.ReadLine());
+        Console.Write ("Enter the price of your favorite book: ");
+        int priceBook;
+        priceBook = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine();
+        Console.WriteLine("\n\nName: " +name+
+                          "\nTotal enrolled course: " +numCourse+
+                          "\nPrice of my favorite book: " +priceBook);
+                          
+        Console.Write("\nPress any key to exit...");
+        Console.ReadKey();
+    }
+}
